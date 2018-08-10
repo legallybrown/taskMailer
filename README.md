@@ -1,24 +1,4 @@
-# README
+# Task Mailer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# App receives emails and stores contents as tasks by line
+# Emails the user daily/weekly/monthly with reminder of tasks 
