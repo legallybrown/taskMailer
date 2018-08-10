@@ -5,7 +5,8 @@ ruby '2.5.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
-# Use postgres as the database for Active Record
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -26,6 +27,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'mailgun-ruby', '~>1.1.6'
 
 gem "griddler-mailgun"
+
+gem 'devise'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
